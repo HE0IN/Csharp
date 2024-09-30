@@ -5,7 +5,7 @@ namespace Example
     internal class Program
     {
         // static void main() : 프로그램 시작점 (Entrt Point)
-        static void Main(string[] args)
+        static void Main1(string[] args)
         {
             // Console.writeLine : 콘솔창에 문자열 출력 함수
             Console.WriteLine("Hello, World!");

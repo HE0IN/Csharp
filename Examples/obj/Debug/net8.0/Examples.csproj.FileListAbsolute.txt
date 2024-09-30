@@ -1,0 +1,15 @@
+C:\Users\samsung\OneDrive\DT교육\csharp\Examples\obj\Debug\net8.0\Examples.GeneratedMSBuildEditorConfig.editorconfig
+C:\Users\samsung\OneDrive\DT교육\csharp\Examples\obj\Debug\net8.0\Examples.AssemblyInfoInputs.cache
+C:\Users\samsung\OneDrive\DT교육\csharp\Examples\obj\Debug\net8.0\Examples.AssemblyInfo.cs
+C:\Users\samsung\OneDrive\DT교육\csharp\Examples\obj\Debug\net8.0\Examples.csproj.CoreCompileInputs.cache
+C:\Users\samsung\OneDrive\DT교육\csharp\Examples\obj\Debug\net8.0\Examples.sourcelink.json
+C:\Users\samsung\OneDrive\DT교육\csharp\Examples\bin\Debug\net8.0\Examples.exe
+C:\Users\samsung\OneDrive\DT교육\csharp\Examples\bin\Debug\net8.0\Examples.deps.json
+C:\Users\samsung\OneDrive\DT교육\csharp\Examples\bin\Debug\net8.0\Examples.runtimeconfig.json
+C:\Users\samsung\OneDrive\DT교육\csharp\Examples\bin\Debug\net8.0\Examples.dll
+C:\Users\samsung\OneDrive\DT교육\csharp\Examples\bin\Debug\net8.0\Examples.pdb
+C:\Users\samsung\OneDrive\DT교육\csharp\Examples\obj\Debug\net8.0\Examples.dll
+C:\Users\samsung\OneDrive\DT교육\csharp\Examples\obj\Debug\net8.0\refint\Examples.dll
+C:\Users\samsung\OneDrive\DT교육\csharp\Examples\obj\Debug\net8.0\Examples.pdb
+C:\Users\samsung\OneDrive\DT교육\csharp\Examples\obj\Debug\net8.0\Examples.genruntimeconfig.cache
+C:\Users\samsung\OneDrive\DT교육\csharp\Examples\obj\Debug\net8.0\ref\Examples.dll
