@@ -16,6 +16,10 @@
     <Compile Remove="ex05.cs" />
     <Compile Remove="ex06.cs" />
     <Compile Remove="ex07.cs" />
+    <Compile Remove="ex08.cs" />
+    <Compile Remove="ex09.cs" />
+    <Compile Remove="ex10.cs" />
+    <Compile Remove="example100.cs" />
     <Compile Remove="Program.cs" />
   </ItemGroup>
 
@@ -28,6 +32,10 @@
     <None Include="ex05.cs" />
     <None Include="ex06.cs" />
     <None Include="ex07.cs" />
+    <None Include="ex08.cs" />
+    <None Include="ex09.cs" />
+    <None Include="ex10.cs" />
+    <None Include="example100.cs" />
     <None Include="Program.cs" />
   </ItemGroup>
 

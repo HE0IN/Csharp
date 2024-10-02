@@ -1,4 +1,7 @@
-﻿namespace Examples {
+﻿using System;
+using System.ComponentModel.DataAnnotations;
+
+namespace Examples {
     internal class example100 {
         static void Main() {
             //https://blog.naver.com/nissisoft21/222520498886
@@ -231,7 +234,7 @@
             //    }
             //}
 
-            // 문제 37. 길이 n이 입력되면 길이가 n인 사각형을 출력
+            //문제 37. 길이 n이 입력되면 길이가 n인 사각형을 출력
             //Console.Write("정사각형의 길이를 입력하세요 : "); int input37 = Convert.ToInt32(Console.ReadLine());
             //for (int i = 0; i < input37; i++) {
             //    for (int j = 0; j < input37; j++) {
@@ -375,38 +378,143 @@
             //          여기서 생년월일과 성별정보만 입력으로 받겠다.
             //          성별 정보는 1이면 1900년대 출생 남자, 2이면 1900년대 출생 여자, 3이면 2000년대 출생 남자, 4이면 2000년대 출생 여자이다.
             //          기준년도는 2018년도이다.  현재 나이를 출력하시오
-            Console.Write("주민등록번호를 입력하세요 : "); List<int> nums48 = new List<int>();
+            //Console.Write("성별 정보를 입력하세요 : "); int input48_1 = Convert.ToInt32(Console.ReadLine());
+            //Console.Write("생년월일을 입력하세요 : "); string? input48_2 = Console.ReadLine();
+            //int age_48 = 0;
+            //if (input48_2 != null) {
+            //    age_48 = Int32.Parse(input48_2.Substring(0, 2));
+            //} else { Console.WriteLine("생년월일을 입력하세요 : "); }
+
+            //if (input48_1 == 1 || input48_1 == 2) {
+            //    int age_48_1 = 100 - age_48 + 18;
+            //    Console.WriteLine($"성별 정보가 {input48_1}이므로, {1900 + age_48}년생, {age_48_1}살이다.");
+            //} else if (input48_1 == 3 || input48_1 == 4) {
+            //    int age_48_1 = 18 - age_48;
+            //    Console.WriteLine($"성별 정보가 {input48_1}이므로, {2000 + age_48}년생, {age_48_1}살이다.");
+            //} else {
+            //    Console.WriteLine("정확히 입력하세요");
+            //}
 
             // 문제 49. 30분 전 시간 계산
             //          수호는 30분 전으로 돌아가고 싶고, 차례대로 시간과 분이 주어진다.
             //          그러면 이 시간을 기준으로 30분 전의 시간을 출력하시오. 예) 12 35 => 12 5, 12 0 => 11 30
-
+            //Console.Write("시 정보를 입력하세요 : "); int input49_1 = Convert.ToInt32(Console.ReadLine());
+            //Console.Write("분 정보를 입력하세요 : "); int input49_2 = Convert.ToInt32(Console.ReadLine());
+            //int input49_3 = 0, input49_4 = 0;
+            //if (input49_2 < 30) {
+            //    input49_3 = input49_1 - 1;
+            //    input49_4 = input49_2 - 30;
+            //    if (input49_4 < 0) {
+            //        input49_4 = 60 + input49_4;
+            //    }
+            //} else {
+            //    input49_3 = input49_1;
+            //    input49_4 = input49_2 - 30;
+            //}
+            //Console.WriteLine($"수호는 시간을 30분 돌려서 {input49_1}시 {input49_2}분에서 {input49_3}시 {input49_4}분이 됐습니다. ");
 
             // 문제 50. 비만을 판단하기 위해서 BMI 수치가 필요하다.
             //          BMI 수치가 입력되면 비만을 판단하시오. (BMI 지수 : 몸무게 / (신장 / 100 * 신장 / 100)
-
+            //Console.Write("키 정보를 입력하세요(cm) : "); double height50 = Convert.ToDouble(Console.ReadLine());
+            //Console.Write("몸무게 정보를 입력하세요(Kg) : "); double weight50 = Convert.ToDouble(Console.ReadLine());
+            //double BMI_info = weight50 / (height50 / 100 * height50 / 100);
+            //Console.WriteLine($"BMI_info : {BMI_info}");
+            //if (BMI_info < 18.5) {
+            //    Console.WriteLine("당신은 저체중 입니다.");
+            //} else if (BMI_info >= 18.5 && BMI_info <= 23) {
+            //    Console.WriteLine("당신은 정상체중 입니다.");
+            //} else if (BMI_info > 23) {
+            //    Console.WriteLine("당신은 과체중 입니다.");
+            //} else {
+            //    Console.WriteLine("당신은 사람이 아닙니다.");
+            //}
 
             // 문제 51. 쓰레기통 알고리즘 문제
+            //Console.Write("압축기준량을 입력해주세요(100미만) : "); int input51 = Convert.ToInt32(Console.ReadLine());
+            //int input51_1 = input51 / 10;
+            //int input51_2 = input51 % 10;
+            //int input51_3 = (input51_2 * 10 + input51_1) * 2;
+            //if (input51_3 > 100) {
+            //    input51_3 = input51_3 - 100;
+            //}
+            //Console.Write($"{input51_3}이므로..... {(input51_3 < 50 ? "Good!!!" : "Oh my God")}");
 
 
             // 문제 52. 영어 서수 문제
+            //Console.Write("숫자를 입력하시면 서수가 붙습니다. : "); int input52 = Convert.ToInt32(Console.ReadLine());
+            //int input52_1 = input52 % 10;
+            //int input52_2 = input52 / 10;
+            //if (input52_2 == 1) {
+            //    Console.WriteLine($"{input52}는 {input52}th입니다.");
+            //} else {
+            //    if (input52_1 == 1) {
+            //        Console.WriteLine($"{input52}는 {input52}st입니다.");
+            //    } else if (input52_1 == 2) {
+            //        Console.WriteLine($"{input52}는 {input52}nd입니다.");
+            //    } else if (input52_1 == 3) {
+            //        Console.WriteLine($"{input52}는 {input52}rd입니다.");
+            //    } else {
+            //        Console.WriteLine($"{input52}는 {input52}th입니다.");
+            //    }
+            //}
 
 
             // 문제 53. 두 실수 a, b가 입력되면 그 두수를 더하거나 빼거나 곱하거나 나누거나 제곱을 해서 가장 큰 수를 출력
-
+            //Console.Write("실수 a를 입력하세요. : "); double input53_1 = Convert.ToDouble(Console.ReadLine());
+            //Console.Write("실수 b를 입력하세요. : "); double input53_2 = Convert.ToDouble(Console.ReadLine());
+            //double max = 0;
+            //if (input53_1 + input53_2 > max) { max = input53_1 + input53_2; }
+            //Console.WriteLine($"{input53_2} + {input53_1} = {input53_2 + input53_1}");
+            //if (input53_2 - input53_1 > max) { max = input53_2 - input53_1; }
+            //Console.WriteLine($"{input53_2} - {input53_1} = {input53_2 - input53_1}");
+            //if (input53_2 * input53_1 > max) { max = input53_2 * input53_1; }
+            //Console.WriteLine($"{input53_2} * {input53_1} = {input53_2 * input53_1}");
+            //if (input53_2 / input53_1 > max) { max = input53_2 / input53_1; }
+            //Console.WriteLine($"{input53_2} / {input53_1} = {input53_2 / input53_1}");
+            //if (input53_1 + input53_2 > max) { max = input53_1 + input53_2; }
+            //Console.WriteLine($"{input53_2} + {input53_1} = {input53_2 + input53_1}");
+            //if (input53_1 - input53_2 > max) { max = input53_1 - input53_2; }
+            //Console.WriteLine($"{input53_2} - {input53_1} = {input53_2 - input53_1}");
+            //if (input53_1 * input53_2 > max) { max = input53_1 * input53_2; }
+            //Console.WriteLine($"{input53_2} * {input53_1} = {input53_2 * input53_1}");
+            //if (input53_1 / input53_2 > max) { max = input53_1 / input53_2; }
+            //Console.WriteLine($"{input53_2} / {input53_1} = {input53_2 / input53_1}");
+            //Console.WriteLine($"가장 큰 경우의 수는 {max}입니다.");
 
             // 문제 54. 두 자연수 a, b가 주어진다. b가 a의 배수이면 "a*x=b"를 출력하고,
             //          a가 b의 배수이면 "b*x=a"를 출력하고, 배수관계가 아니면 "none"을 출력
-
+            //Console.Write("정수 a를 입력하세요. : "); int input54_1 = Convert.ToInt32(Console.ReadLine());
+            //Console.Write("정수 b를 입력하세요. : "); int input54_2 = Convert.ToInt32(Console.ReadLine());
+            //if (input54_1 % input54_2 == 0) {
+            //    Console.WriteLine($"{input54_1}는(은) {input54_2}의 배수입니다. {input54_2} * {input54_1 / input54_2} = {input54_1}");
+            //} else if (input54_2 % input54_1 == 0) {
+            //    Console.WriteLine($"{input54_2}는(은) {input54_1}의 배수입니다. {input54_1} * {input54_2 / input54_1} = {input54_2}");
+            //} else { Console.WriteLine("none"); }
 
             // 문제 55. 재호는 이번 시험에 받은 성적이 궁금했다. 점수가 입력되면 등급을 출력
-
+            //Console.Write("시험 성적을 입력하시오. : "); int input55 = Convert.ToInt32(Console.ReadLine());
+            //Console.WriteLine($"{(input55 >= 90 ? "A" : input55 >= 80 ? "B" : input55 >= 70 ? "C" : input55 >= 60 ? "D" : "F")}");
 
             // 문제 56. 윷놀이 문제
-
+            //Random rand = new Random();
+            //int sum56 = 0;
+            //int[] num56 = new int[4];
+            //for (int i = 0; i < num56.Length; i++) {
+            //    num56[i] = rand.Next(0, 2);
+            //    Console.WriteLine(num56[i]);
+            //    sum56 += num56[i];
+            //}
+            //Console.WriteLine($"뒤집어진 개수는 {sum56}으로 {(sum56 == 4 ? "윷" : (sum56 == 3 ? "걸" : (sum56 == 2 ? "개" : (sum56 == 1 ? "도" : "모"))))}");
 
             // 문제 57. 놋데리아 문제
+            Console.Write("메뉴 두개를 선택하세요. 칼로리가 500을 초과하면 엄마가 화내십니다.");
+            Console.Write("메뉴 두개를 선택하세요. 칼로리가 500을 초과하면 엄마가 화내십니다.");
+            Console.Write("메뉴 두개를 선택하세요. 칼로리가 500을 초과하면 엄마가 화내십니다.");
 
+
+
+
+            int input55 = Convert.ToInt32(Console.ReadLine());
 
             // 문제 58. 세 개의 직선이 있다. 숫자의 의미는 직선의 길이를 말한다.
             //          이 직선으로 삼각형을 만들 수 있는지 판단하는 프로그램을 작성
