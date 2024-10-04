@@ -1,5 +1,6 @@
 ﻿using System;
 using System.ComponentModel.DataAnnotations;
+using System.Runtime.ExceptionServices;
 
 namespace Examples {
     internal class example100 {
@@ -507,73 +508,260 @@ namespace Examples {
             //Console.WriteLine($"뒤집어진 개수는 {sum56}으로 {(sum56 == 4 ? "윷" : (sum56 == 3 ? "걸" : (sum56 == 2 ? "개" : (sum56 == 1 ? "도" : "모"))))}");
 
             // 문제 57. 놋데리아 문제
-            Console.Write("메뉴 두개를 선택하세요. 칼로리가 500을 초과하면 엄마가 화내십니다.");
-            Console.Write("메뉴 두개를 선택하세요. 칼로리가 500을 초과하면 엄마가 화내십니다.");
-            Console.Write("메뉴 두개를 선택하세요. 칼로리가 500을 초과하면 엄마가 화내십니다.");
-
-
-
-
-            int input55 = Convert.ToInt32(Console.ReadLine());
+            //Console.Write("메뉴 두개를 선택하세요. 칼로리가 500을 초과하면 엄마가 화내십니다."); int input57_1 = Convert.ToInt32(Console.ReadLine());
+            //Console.Write("메뉴 두개를 선택하세요. 칼로리가 500을 초과하면 엄마가 화내십니다."); int input57_2 = Convert.ToInt32(Console.ReadLine());
+            //int food_1 = 0, food_2 = 0;
+            //if (input57_1 == 1) { Console.WriteLine("치즈버거를 선택했습니다."); food_1 = 400; } else if (input57_1 == 2) { Console.WriteLine("야채버거를 선택했습니다."); food_1 = 340; } else if (input57_1 == 3) { Console.WriteLine("우유를 선택했습니다."); food_1 = 1700; } else if (input57_1 == 4) { Console.WriteLine("계란말이를 선택했습니다."); food_1 = 100; } else if (input57_1 == 5) { Console.WriteLine("샐러드를 선택했습니다."); food_1 = 70; }
+            //if (input57_2 == 1) { Console.WriteLine("치즈버거를 선택했습니다."); food_2 = 400; } else if (input57_2 == 2) { Console.WriteLine("야채버거를 선택했습니다."); food_2 = 340; } else if (input57_2 == 3) { Console.WriteLine("우유를 선택했습니다."); food_2 = 1700; } else if (input57_2 == 4) { Console.WriteLine("계란말이를 선택했습니다."); food_2 = 100; } else if (input57_2 == 5) { Console.WriteLine("샐러드를 선택했습니다."); food_2 = 70; }
+            //int sumfood57 = food_1 + food_2;
+            //if (sumfood57 > 500)
+            //    Console.WriteLine("어머니 : angry!!");
+            //else
+            //    Console.WriteLine("어머니 : no angry...");
 
             // 문제 58. 세 개의 직선이 있다. 숫자의 의미는 직선의 길이를 말한다.
             //          이 직선으로 삼각형을 만들 수 있는지 판단하는 프로그램을 작성
+            //Console.Write("첫 번째 변의 길이를 입력하세요. "); int input58_1 = Convert.ToInt32(Console.ReadLine());
+            //Console.Write("두 번째 변의 길이를 입력하세요. "); int input58_2 = Convert.ToInt32(Console.ReadLine());
+            //Console.Write("세 번째 변의 길이를 입력하세요. "); int input58_3 = Convert.ToInt32(Console.ReadLine());
+            //if (input58_1 > input58_2 && input58_1 > input58_3) {
+            //    Console.Write($"가장 큰 변의 길이는 {input58_1}이고, 나머지 변의 길이의 합은 {input58_2 + input58_3} 이므로 ");
+            //    Console.Write($"{(input58_1 < input58_2 + input58_3 ? "삼각형이 가능합니다." : "삼각형이 불가능합니다.")}");
+            //} else if (input58_2 > input58_1 && input58_2 > input58_3) {
+            //    Console.Write($"가장 큰 변의 길이는 {input58_2}이고, 나머지 변의 길이의 합은 {input58_1 + input58_3} 이므로 ");
+            //    Console.Write($"{(input58_2 < input58_1 + input58_3 ? "삼각형이 가능합니다." : "삼각형이 불가능합니다.")}");
+            //} else if (input58_3 > input58_1 && input58_3 > input58_2) {
+            //    Console.Write($"가장 큰 변의 길이는 {input58_3}이고, 나머지 변의 길이의 합은 {input58_1 + input58_2} 이므로 ");
+            //    Console.Write($"{(input58_3 < input58_1 + input58_2 ? "삼각형이 가능합니다." : "삼각형이 불가능합니다.")}");
+            //}
 
             // 문제 59. 로또 문제
+            // 로또 번호 입력
+            //Console.WriteLine("로또 번호 7개를 입력하세요 (마지막 번호는 보너스 번호입니다)");
+            //int[] input59 = new int[7];
+            //while (true) {
+            //    Console.Write("입력 번호 : ");
+            //    string? input59_str = Console.ReadLine();
+            //    if (input59_str != null) {
+            //        string[] inputArray = input59_str.Split(new char[] { ',', ' ', ';', '\t' }, StringSplitOptions.RemoveEmptyEntries);
+            //        if (inputArray.Length != 7) {
+            //            Console.WriteLine("정확히 7개의 번호를 입력하세요.");
+            //            continue;
+            //        }
+            //        try {
+            //            input59 = Array.ConvertAll(inputArray, int.Parse);
+            //        } catch {
+            //            Console.WriteLine("유효한 숫자를 입력하세요.");
+            //            continue;
+            //        }
+            //        if (input59.Distinct().Count() != input59.Length) {
+            //            Console.WriteLine("중복된 번호가 있습니다. 중복 없이 입력하세요.");
+            //            continue;
+            //        }
+            //        if (input59.Any(x => x < 1 || x > 45)) {
+            //            Console.WriteLine("로또 번호는 1부터 45 사이의 숫자여야 합니다.");
+            //            continue;
+            //        }
+            //        break;
+            //    }
+            //}
+            //Random rand = new Random();
+            //List<int> nums59 = new List<int>();
+            //for (int i = 1; i < 46; i++) {
+            //    nums59.Add(i);
+            //}
+            //List<int> lotto59 = new List<int>();
+            //for (int i = 0; i < 7; i++) {
+            //    int random59 = rand.Next(0, nums59.Count);
+            //    lotto59.Add(nums59[random59]);
+            //    nums59.RemoveAt(random59);
+            //}
+            //Console.Write("로또 번호 : ");
+            //Console.WriteLine(string.Join(", ", lotto59));
+            //int compare59 = 0, bonus59 = 0;
+            //for (int i = 0; i < 6; i++) {
+            //    for (int j = 0; j < 6; j++) {
+            //        if (lotto59[i] == input59[j]) {
+            //            compare59++;
+            //        }
+            //    }
+            //}
+            //if (lotto59[6] == input59[6]) {
+            //    bonus59++;
+            //}
+            //if (compare59 == 6) {
+            //    Console.WriteLine("당첨번호 일치가 6개 이므로, 1등 입니다.");
+            //} else if (compare59 == 5 && bonus59 == 1) {
+            //    Console.WriteLine("당첨번호 일치가 5개, 보너스번호 일치로 2등 입니다.");
+            //} else if (compare59 == 5) {
+            //    Console.WriteLine("당첨번호 일치가 5개 이므로, 3등 입니다.");
+            //} else if (compare59 == 4) {
+            //    Console.WriteLine("당첨번호 일치가 4개 이므로, 4등 입니다.");
+            //} else if (compare59 == 3) {
+            //    Console.WriteLine("당첨번호 일치가 3개 이므로, 5등 입니다.");
+            //} else {
+            //    Console.WriteLine($"당첨번호 일치가 {compare59}개 이므로 꽝 입니다.");
+            //}
 
             // 문제 60. 46번이랑 같은 터널 문제
+            //Random rand = new Random();
+            //int random_46_1 = rand.Next(160, 200), random_46_2 = rand.Next(160, 200), random_46_3 = rand.Next(160, 200);
+            //if (random_46_1 > 170) {
+            //    Console.WriteLine($"첫 번째 터널의 높이 : {random_46_1} -> PASS!!");
+            //    if (random_46_2 > 170) {
+            //        Console.WriteLine($"두 번째 터널의 높이 : {random_46_2} -> PASS!!");
+            //        if (random_46_3 > 170) {
+            //            Console.WriteLine($"세 번째 터널의 높이 : {random_46_3} -> PASS!!");
+            //        } else {
+            //            Console.WriteLine($"세 번째 터널의 높이 : {random_46_3} -> CRASH!!");
+            //        }
+            //    } else {
+            //        Console.WriteLine($"두 번째 터널의 높이 :  {random_46_2} -> CRASH!!");
+            //    }
+            //} else {
+            //    Console.WriteLine($"첫 번째 터널의 높이 : {random_46_1} -> CRASH!!");
+            //}
 
             // 문제 61. 계산기 프로그램
+            //Console.WriteLine("계산기 프로그램");
+            //Console.Write("계산식을 입력하세요. : "); string? input61 = Console.ReadLine();
+            //if (input61 != null) {
+            //    string[] Array61 = input61.Split(new string[] { " " }, StringSplitOptions.RemoveEmptyEntries);
+            //    if (Array61[1] == "+") {
+            //        double sum = double.Parse(Array61[0]) + double.Parse(Array61[2]);
+            //        Console.WriteLine($"{Array61[0]} + {Array61[2]} = {sum}입니다.");
+            //    } else if (Array61[1] == "-") {
+            //        double sum = double.Parse(Array61[0]) - double.Parse(Array61[2]);
+            //        Console.WriteLine($"{Array61[0]} - {Array61[2]} = {sum}입니다.");
+            //    } else if (Array61[1] == "*") {
+            //        double sum = double.Parse(Array61[0]) * double.Parse(Array61[2]);
+            //        Console.WriteLine($"{Array61[0]} * {Array61[2]} = {sum}입니다.");
+            //    } else if (Array61[1] == "/") {
+            //        double sum = double.Parse(Array61[0]) / double.Parse(Array61[2]);
+            //        Console.WriteLine($"{Array61[0]} / {Array61[2]} = {sum:F2}입니다.");
+            //    }
+            //}
 
             // 문제 62. 학번을 입력 받아 다음 형식으로 출력하시오. 학번은 학년, 반, 번호로 입력된다.
             //          이번에는 학년은 한자리, 반은 두자리, 번호는 세자리로 출력한다
+            //int input62_1, input62_2, input62_3;
+            //do {
+            //    Console.Write("학년을 입력하세요(3학년 이하) : "); input62_1 = Convert.ToInt32(Console.ReadLine());
+            //} while (input62_1 > 4 || input62_1 < 0);
+            //do {
+            //    Console.Write("반을 입력하세요(20반 이하) : "); input62_2 = Convert.ToInt32(Console.ReadLine());
+            //} while (input62_2 > 20 || input62_2 < 0);
+            //do {
+            //    Console.Write("번호를 입력하세요(999번 이하) : "); input62_3 = Convert.ToInt32(Console.ReadLine());
+            //} while (input62_3 > 999 || input62_2 < 0);
+
+            //Console.WriteLine($"학번 : {input62_1}{input62_2.ToString("00")}{input62_3.ToString("000")}");
+
 
             // 문제 63. 하루는 24시간이다. 일(day)이 입력으로 주어지면 시간으로 변환하시오. 입력일(day)이 입력된다.
             //          출력시간으로 변환해서 출력한다. (입력 예 : 2 , 출력 예 : 48)
+            //Console.Write("일 수를 입력하세요 : "); int input63 = Convert.ToInt32(Console.ReadLine());
+            //Console.Write($"시간으로 환산하면 {input63 * 24}시간 입니다.");
+
 
             // 문제 64. 정수 계산에서 나머지를 구하시오. 예를 들어 7 / 5 의 나머지는 2입니다. 입력 : 두 정수 a, b를 입력받는다.
             //          a는 피제수, b는 제수를 나타낸다. 예) 7 5 가 입력되었다면  ====> 7 / 5 를 뜻함, 출력 : 나머지를 출력한다.
+            //Console.Write("계산식을 입력하세요. : "); string? input64 = Console.ReadLine();
+            //if (input64 != null) {
+            //    string[] Array64 = input64.Split(new string[] { " " }, StringSplitOptions.RemoveEmptyEntries);
+            //    Console.Write($"{Array64[0]} / {Array64[1]} 의 몫은 {int.Parse(Array64[0]) / int.Parse(Array64[1])} 이고, 나머지는 {double.Parse(Array64[0]) % double.Parse(Array64[1])}입니다.");
+            //}
 
             // 문제 65. 3 6 9 게임
+            //Console.WriteLine("3 6 9 게임");
+            //Console.Write("숫자를 입력하세요. : "); int input65 = Convert.ToInt32(Console.ReadLine());
+            //if (input65 < 10) {
+            //    if (input65 % 3 == 0) {
+            //        Console.WriteLine("X");
+            //    }
+            //} else if (input65 >= 9) {
+            //    int input65_1 = input65 / 10;
+            //    int input65_2 = input65 % 10;
+            //    if (input65_1 % 3 == 0) {
+            //        Console.Write("X");
+            //    }
+            //    if (input65_2 % 3 == 0 && input65_2 != 0) {
+            //        Console.Write("X");
+            //    }
+            //}
 
             // 문제 66. 1, 2, 3 ... 을 계속 더해나갈때, 그 합이 입력한 정수보다 같거나 작을 때까지,
             //          (0 ~1000) 계속 합하는 프로그램을 작성
+            Console.Write("숫자를 입력하세요. : "); int input66 = Convert.ToInt32(Console.ReadLine());
+
 
             // 문제 67. 정수 한 개가 입력되었을 때 카운트다운을 출력
+
+
 
             // 문제 68. 정수 한 개를 입력받아 0부터 그 수까지 순서대로 출력해보자. (0 ~100)
             //          입력 : 정수 한 개가 입력된다. (0 ~100), 출력 : 0부터 그 수까지 줄을 바꿔 한 줄씩 출력
 
+
+
             // 문제 69. 시작 값(a), 등차의 값(d), 몇 번째 인지를 나타내는 정수(n)가 입력될 때 n번째 수를 출력하는 프로그램 작성
+
+
 
             // 문제 70. 시작 값(a), 등비의 값(r), 몇 번째 인지를 나타내는 정수(n)가 입력될 때 n번째 수를 출력하는 프로그램 작성
 
+
+
             // 문제 71. 무작위로 n개의 정수가 입력된다.(n은 2~10의 랜덤수임) n개의 수의 합을 출력
+
+
 
             // 문제 72. 입력의 개수 n이 입력되고 n개의  데이터가 입력된다. 이 n개의 데이터 중 최대값을 출력
 
+
+
             // 문제 73. 기부 문제
+
+
 
             // 문제 74. 자연수 N이 주어지면 N의 약수를 오름차순으로 모두 출력
 
+
+
             // 문제 75. 소수란, 약수가 1과 자기 자신 두 개 뿐인 수를 말한다. 어떤 수가 입력되면 그 수가 소수인지 판단
+
+
 
             // 문제 76. 어떤 수 n과 k가 있다. n과 k의 관계는 다음과 같다. nk는 n을 k번 곱한 것을 말한다.
             //          입력으로 n과 k가 주어지면 결과를 출력
 
+
+
             // 문제 77. 팩토리얼 문제 n이 입력되면 n!의 값을 출력
+
+
 
             // 문제 78. 계산기 1에서 두 피연산자에 대한 연산만 다루었다.
             //          이번에는 식을 입력하면 차례대로 계산하여 출력하는 계산기를 만들어보자.
             //          단, 우선순위는 따지지 않고 왼쪽에서 부터 차례대로 계산하고, 모든 계산은 정수형 계산으로 처리한다
 
+
+
             // 문제 79. 주어지는 문장의 대문자를 소문자로, 소문자를 대문자로 변경하는 프로그램을 작성
+
+
 
             // 문제 80. 암호문 문제
 
+
+
             // 문제 81. 5개의 정수들의 최댓값과 최솟값을 구하는 프로그램을 작성
 
+
+
             // 문제 82. 시작단과 마지막 단을 입력하면 그 구간의 구구단을 출력하는 프로그램을 작성
+
+
 
             // 문제 83. n이 입력되면 다음과 같은 삼각형을 출력, 예) n 이 5 이면
             //          *
@@ -582,13 +770,16 @@ namespace Examples {
             //          ****
             //          *****
 
-            // 문제 84. 길이 n이 입력되면 역삼각형을 출력 예) n이 5이면
 
+
+            // 문제 84. 길이 n이 입력되면 역삼각형을 출력 예) n이 5이면
             //          *****
             //          ****
             //          ***
             //          **
             //          *
+
+
 
             // 문제 85. 길이 n이 입력되면 다음과 같은 역삼각형을 출력한다. 예) n이 5이면
             //          *****
@@ -597,11 +788,15 @@ namespace Examples {
             //             **
             //              *
 
+
+
             // 문제 86. 어떤 수 n을 입력받으면 다음과 같은 삼각형을 출력한다. 여기서 입력되는 n은 반드시 홀수이다.
             //          입력예) 3부터 99 까지의 홀수 중 하나가 입력
             //            *
             //           ***
             //          *****       
+
+
 
             // 문제 87. 길이 n이 입력되면 다음과 같은 사각형을 출력한다. 예) n이 5일때
             //          *****
@@ -610,14 +805,22 @@ namespace Examples {
             //          *   *
             //          *****
 
+
+
             // 문제 88. 동렬이는 수학 문제를 풀다 다음과 같은 수열을 보았다.
             //          Sn = (1) + (1 + 2) + (1 + 2 + 3) + (1 + 2 + 3 + 4) + ...+(1 + ...+ n)Sn
             //          = (1) + (1 + 2) + (1 + 2 + 3) + (1 + 2 + 3 + 4) + ...+(1 + ...+ n)
             //          임의의 정수 n이 주어질 때 이 수열의 합 Sn을 구하는 프로그램을 작성
 
+
+
             // 문제 89. 주사위 경우의 수 문제
 
+
+
             // 문제 90. 출석 문제
+
+
 
             // 문제 91. n개의 숫자가 입력되면, n개의 숫자를 왼쪽으로 하나씩 돌려서 출력하시오.
             //          예) 1 2 3 4 5가 입력된 경우,
@@ -627,23 +830,42 @@ namespace Examples {
             //          4 5 1 2 3
             //          5 1 2 3 4
 
+
+
             // 문제 92. 기억력 문제 1
+
+
 
             // 문제 93. 기억력 문제 2
 
+
+
             // 문제 94. 괄호 문제
+
+
 
             // 문제 95. 어떤 영어 문장이 주어지면 각 알파벳이 몇 번 나왔는지 출력
 
+
+
             // 문제 96. 친구 성적 문제
+
+
 
             // 문제 97. 담임 자리배치 문제
 
+
+
             // 문제 98. 오목문제
+
+
 
             // 문제 99. 학점 문제
 
+
+
             // 문제 100. 컴퓨터 랜덤숫자 문제
+
         }
     }
 }
