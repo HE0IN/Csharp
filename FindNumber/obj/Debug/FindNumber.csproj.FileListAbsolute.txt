@@ -1,0 +1,10 @@
+C:\Users\samsung\OneDrive\DT교육\csharp\FindNumber\bin\Debug\FindNumber.exe.config
+C:\Users\samsung\OneDrive\DT교육\csharp\FindNumber\bin\Debug\FindNumber.exe
+C:\Users\samsung\OneDrive\DT교육\csharp\FindNumber\bin\Debug\FindNumber.pdb
+C:\Users\samsung\OneDrive\DT교육\csharp\FindNumber\obj\Debug\FindNumber.csproj.AssemblyReference.cache
+C:\Users\samsung\OneDrive\DT교육\csharp\FindNumber\obj\Debug\FindNumber.Form1.resources
+C:\Users\samsung\OneDrive\DT교육\csharp\FindNumber\obj\Debug\FindNumber.Properties.Resources.resources
+C:\Users\samsung\OneDrive\DT교육\csharp\FindNumber\obj\Debug\FindNumber.csproj.GenerateResource.cache
+C:\Users\samsung\OneDrive\DT교육\csharp\FindNumber\obj\Debug\FindNumber.csproj.CoreCompileInputs.cache
+C:\Users\samsung\OneDrive\DT교육\csharp\FindNumber\obj\Debug\FindNumber.exe
+C:\Users\samsung\OneDrive\DT교육\csharp\FindNumber\obj\Debug\FindNumber.pdb

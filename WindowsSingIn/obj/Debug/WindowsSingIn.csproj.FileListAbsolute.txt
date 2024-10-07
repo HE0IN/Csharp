@@ -1,0 +1,10 @@
+C:\Users\samsung\OneDrive\DT교육\csharp\WindowsSingIn\bin\Debug\WindowsSingIn.exe.config
+C:\Users\samsung\OneDrive\DT교육\csharp\WindowsSingIn\bin\Debug\WindowsSingIn.exe
+C:\Users\samsung\OneDrive\DT교육\csharp\WindowsSingIn\bin\Debug\WindowsSingIn.pdb
+C:\Users\samsung\OneDrive\DT교육\csharp\WindowsSingIn\obj\Debug\WindowsSingIn.csproj.AssemblyReference.cache
+C:\Users\samsung\OneDrive\DT교육\csharp\WindowsSingIn\obj\Debug\WindowsSingIn.Form1.resources
+C:\Users\samsung\OneDrive\DT교육\csharp\WindowsSingIn\obj\Debug\WindowsSingIn.Properties.Resources.resources
+C:\Users\samsung\OneDrive\DT교육\csharp\WindowsSingIn\obj\Debug\WindowsSingIn.csproj.GenerateResource.cache
+C:\Users\samsung\OneDrive\DT교육\csharp\WindowsSingIn\obj\Debug\WindowsSingIn.csproj.CoreCompileInputs.cache
+C:\Users\samsung\OneDrive\DT교육\csharp\WindowsSingIn\obj\Debug\WindowsSingIn.exe
+C:\Users\samsung\OneDrive\DT교육\csharp\WindowsSingIn\obj\Debug\WindowsSingIn.pdb

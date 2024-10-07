@@ -1,0 +1,10 @@
+C:\Users\samsung\OneDrive\DT교육\csharp\FindMine\obj\Debug\FindMine.csproj.AssemblyReference.cache
+C:\Users\samsung\OneDrive\DT교육\csharp\FindMine\obj\Debug\FindMine.Form1.resources
+C:\Users\samsung\OneDrive\DT교육\csharp\FindMine\obj\Debug\FindMine.Properties.Resources.resources
+C:\Users\samsung\OneDrive\DT교육\csharp\FindMine\obj\Debug\FindMine.csproj.GenerateResource.cache
+C:\Users\samsung\OneDrive\DT교육\csharp\FindMine\obj\Debug\FindMine.csproj.CoreCompileInputs.cache
+C:\Users\samsung\OneDrive\DT교육\csharp\FindMine\bin\Debug\FindMine.exe.config
+C:\Users\samsung\OneDrive\DT교육\csharp\FindMine\bin\Debug\FindMine.exe
+C:\Users\samsung\OneDrive\DT교육\csharp\FindMine\bin\Debug\FindMine.pdb
+C:\Users\samsung\OneDrive\DT교육\csharp\FindMine\obj\Debug\FindMine.exe
+C:\Users\samsung\OneDrive\DT교육\csharp\FindMine\obj\Debug\FindMine.pdb

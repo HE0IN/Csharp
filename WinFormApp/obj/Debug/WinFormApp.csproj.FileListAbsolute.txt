@@ -1,0 +1,10 @@
+C:\Users\samsung\OneDrive\DT교육\csharp\WinFormApp\bin\Debug\WinFormApp.exe.config
+C:\Users\samsung\OneDrive\DT교육\csharp\WinFormApp\bin\Debug\WinFormApp.exe
+C:\Users\samsung\OneDrive\DT교육\csharp\WinFormApp\bin\Debug\WinFormApp.pdb
+C:\Users\samsung\OneDrive\DT교육\csharp\WinFormApp\obj\Debug\WinFormApp.csproj.AssemblyReference.cache
+C:\Users\samsung\OneDrive\DT교육\csharp\WinFormApp\obj\Debug\WinFormApp.Form1.resources
+C:\Users\samsung\OneDrive\DT교육\csharp\WinFormApp\obj\Debug\WinFormApp.Properties.Resources.resources
+C:\Users\samsung\OneDrive\DT교육\csharp\WinFormApp\obj\Debug\WinFormApp.csproj.GenerateResource.cache
+C:\Users\samsung\OneDrive\DT교육\csharp\WinFormApp\obj\Debug\WinFormApp.csproj.CoreCompileInputs.cache
+C:\Users\samsung\OneDrive\DT교육\csharp\WinFormApp\obj\Debug\WinFormApp.exe
+C:\Users\samsung\OneDrive\DT교육\csharp\WinFormApp\obj\Debug\WinFormApp.pdb
