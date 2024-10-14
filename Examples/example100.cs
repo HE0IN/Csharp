@@ -692,76 +692,374 @@ namespace Examples {
 
             // 문제 66. 1, 2, 3 ... 을 계속 더해나갈때, 그 합이 입력한 정수보다 같거나 작을 때까지,
             //          (0 ~1000) 계속 합하는 프로그램을 작성
-            Console.Write("숫자를 입력하세요. : "); int input66 = Convert.ToInt32(Console.ReadLine());
+            //Console.Write("숫자를 입력해 주세요 : ");
+            //string? input = Console.ReadLine();
 
+            //if (input != null && int.TryParse(input, out int a)) {
+            //    int sum = 0;
+            //    int i = 1;
+            //    for (; i <= a; i++)
+            //    {
+            //        sum += i;
+            //        if (sum >= a) {
+            //            break;
+            //        }
+            //        Console.Write(i + "+");
+            //    }
+            //    Console.Write(i); 
+            //    Console.WriteLine();
+            //    Console.WriteLine(sum + " 입력한 수보다 크거나 같으므로 종료 합니다.");
+            //} else {
+            //    Console.WriteLine("유효한 숫자를 입력해 주세요.");
+            //}
 
             // 문제 67. 정수 한 개가 입력되었을 때 카운트다운을 출력
+            //Console.Write("카운트 다운 시작할 숫자를 입력하세요>");
+            //string? input = Console.ReadLine();
 
+            //if (input != null && int.TryParse(input, out int a)) {
+            //    for (int i = a; i > 0; i--) {
+            //        try {
+            //            Thread.Sleep(500);
+            //        } catch (ThreadInterruptedException e) {
+            //            Console.WriteLine(e.Message);
+            //        }
+            //        Console.WriteLine(i);
+            //    }
+            //    Console.WriteLine("종료합니다.");
+            //} else {
+            //    Console.WriteLine("유효한 숫자를 입력해 주세요.");
+            //}
 
 
             // 문제 68. 정수 한 개를 입력받아 0부터 그 수까지 순서대로 출력해보자. (0 ~100)
             //          입력 : 정수 한 개가 입력된다. (0 ~100), 출력 : 0부터 그 수까지 줄을 바꿔 한 줄씩 출력
+            //Console.Write("(역)카운트 다운 시작할 숫자를 입력하세요>");
+            //string? input = Console.ReadLine();
 
+            //if (input != null && int.TryParse(input, out int a)) {
+            //    for (int i = 1; i <= a; i++) {
+            //        try {
+            //            Thread.Sleep(500);
+            //        } catch (ThreadInterruptedException e) {
+            //            Console.WriteLine(e.Message);
+            //        }
+            //        Console.WriteLine(i);
+            //    }
+            //    Console.WriteLine("종료합니다.");
+            //} else {
+            //    Console.WriteLine("유효한 숫자를 입력해 주세요.");
+            //}
 
 
             // 문제 69. 시작 값(a), 등차의 값(d), 몇 번째 인지를 나타내는 정수(n)가 입력될 때 n번째 수를 출력하는 프로그램 작성
+            //Console.Write("시작값을 입력해주세요>");
+            //string? inputA = Console.ReadLine();
+            //Console.Write("등차 값을 입력해주세요>");
+            //string? inputB = Console.ReadLine();
+            //Console.Write("몇 번째 자리까지 출력을 할지 입력해주세요>");
+            //string? inputN = Console.ReadLine();
 
+            //if (inputA != null && inputB != null && inputN != null &&
+            //    int.TryParse(inputA, out int a) && int.TryParse(inputB, out int b) && int.TryParse(inputN, out int n)) {
+            //    for (int i = a; i <= (b * n); i += b) {
+            //        Console.WriteLine(i);
+            //    }
+            //} else {
+            //    Console.WriteLine("유효한 숫자를 입력해 주세요.");
+            //}
 
 
             // 문제 70. 시작 값(a), 등비의 값(r), 몇 번째 인지를 나타내는 정수(n)가 입력될 때 n번째 수를 출력하는 프로그램 작성
+            //Console.Write("시작 값을 입력하세요: ");
+            //string? input1 = Console.ReadLine();
+            //Console.Write("등비 값을 입력하세요: ");
+            //string? input2 = Console.ReadLine();
+            //Console.Write("몇 번째 수를 출력할지 입력하세요: ");
+            //string? input3 = Console.ReadLine();
 
+            //if (input1 != null && input2 != null && input3 != null &&
+            //    int.TryParse(input1, out int a) && int.TryParse(input2, out int r) && int.TryParse(input3, out int n)) {
+            //    int multiSum = a;
+            //    for (int i = 1; i <= n; i++) {
+            //        Console.WriteLine(multiSum);
+            //        multiSum *= r;
+            //    }
+            //} else {
+            //    Console.WriteLine("유효한 숫자를 입력해 주세요.");
+            //}
 
 
             // 문제 71. 무작위로 n개의 정수가 입력된다.(n은 2~10의 랜덤수임) n개의 수의 합을 출력
+            //int sum = 0;
+            //Console.WriteLine("계산기 n개의 숫자를 입력해 더합니다. 0을 입력하면 종료합니다.");
+            //Console.WriteLine("==============================================");
 
+            //while (true) {
+            //    Console.Write("더할 숫자를 입력하세요> ");
+            //    string? input = Console.ReadLine();
 
+            //    if (int.TryParse(input, out int num)) {
+            //        sum += num;
+            //        Console.WriteLine("====================");
+            //        Console.WriteLine("지금까지 숫자의 합은? " + sum);
+
+            //        if (num == 0) {
+            //            Console.WriteLine("시스템을 종료합니다.");
+            //            break;
+            //        }
+            //    } else {
+            //        Console.WriteLine("유효한 숫자를 입력해 주세요.");
+            //    }
+            //}
 
             // 문제 72. 입력의 개수 n이 입력되고 n개의  데이터가 입력된다. 이 n개의 데이터 중 최대값을 출력
+            //List<int> arr = new List<int>();
+            //int max = 0;
 
+            //while (true) {
+            //    Console.WriteLine();
+            //    Console.Write("숫자를 입력하세요> ");
+            //    string? input = Console.ReadLine();
 
+            //    if (int.TryParse(input, out int num)) {
+            //        arr.Add(num);
+            //        for (int i = 0; i < arr.Count; i++) {
+            //            if (max < arr[i]) {
+            //                max = arr[i];
+            //            }
+            //            Console.Write(arr[i] + (i < arr.Count - 1 ? ", " : ""));
+            //        }
+            //        Console.WriteLine();
+            //        Console.WriteLine("입력받은 숫자의 최대값은? " + max);
+            //    } else {
+            //        Console.WriteLine("유효한 숫자를 입력해 주세요.");
+            //    }
+            //}
 
             // 문제 73. 기부 문제
+            //int[] rule = { 1, 10, 2, 20, 3, 30, 4, 40, 5,
+            //    50, 6, 60, 7, 70, 8, 80, 9, 90,
+            //    10, 100, 11, 110, 12, 120 };
 
+            //Console.Write("존의 번호를 입력하세요: ");
+            //string? input1 = Console.ReadLine();
+            //Console.Write("밥의 번호를 입력하세요: ");
+            //string? input2 = Console.ReadLine();
 
+            //if (int.TryParse(input1, out int num1) && int.TryParse(input2, out int num2)) {
+            //    if (num1 >= 1 && num1 <= rule.Length && num2 >= 1 && num2 <= rule.Length) {
+            //        int money = rule[num1 - 1] + rule[num2 - 1];
+            //        Console.WriteLine("기부금은 " + money);
+            //    } else {
+            //        Console.WriteLine("입력값이 유효하지 않습니다. 1에서 " + rule.Length + " 사이의 값을 입력해주세요.");
+            //    }
+            //} else {
+            //    Console.WriteLine("유효한 숫자를 입력해 주세요.");
+            //}
 
             // 문제 74. 자연수 N이 주어지면 N의 약수를 오름차순으로 모두 출력
+            //Console.Write("약수를 구할 숫자를 입력하세요> ");
+            //string? input = Console.ReadLine();
 
-
+            //if (int.TryParse(input, out int num)) {
+            //    Console.Write("약수: ");
+            //    for (int i = 1; i <= 30; i++) {
+            //        if (num % i == 0) {
+            //            Console.Write(i + (i < 30 ? ", " : ""));
+            //        }
+            //    }
+            //    Console.WriteLine();
+            //} else {
+            //    Console.WriteLine("유효한 숫자를 입력해 주세요.");
+            //}
 
             // 문제 75. 소수란, 약수가 1과 자기 자신 두 개 뿐인 수를 말한다. 어떤 수가 입력되면 그 수가 소수인지 판단
+            //Console.Write("소수 판별을 할 숫자를 입력하세요: ");
+            //string? input = Console.ReadLine();
 
+            //if (int.TryParse(input, out int n)) {
+            //    int count = 0; // 약수 카운트
 
+            //    for (int i = 1; i <= n; i++) {
+            //        if (n % i == 0) // 나누어 떨어짐
+            //        {
+            //            count++;
+            //        }
+            //    }
+
+            //    if (count == 2) {
+            //        Console.WriteLine("소수임");
+            //        Console.WriteLine("약수 갯수: " + count);
+            //    } else {
+            //        Console.WriteLine("소수가 아님");
+            //        Console.WriteLine("약수 갯수: " + count);
+            //    }
+            //} else {
+            //    Console.WriteLine("유효한 숫자를 입력해 주세요.");
+            //}
 
             // 문제 76. 어떤 수 n과 k가 있다. n과 k의 관계는 다음과 같다. nk는 n을 k번 곱한 것을 말한다.
             //          입력으로 n과 k가 주어지면 결과를 출력
+            //Console.Write("지수를 입력하세요> ");
+            //string? inputN = Console.ReadLine();
+            //Console.Write("가수를 입력하세요> ");
+            //string? inputK = Console.ReadLine();
 
-
+            //if (int.TryParse(inputN, out int n) && int.TryParse(inputK, out int k)) {
+            //    int num = (int)Math.Pow(n, k);
+            //    Console.WriteLine(num);
+            //} else {
+            //    Console.WriteLine("유효한 숫자를 입력해 주세요.");
+            //}
 
             // 문제 77. 팩토리얼 문제 n이 입력되면 n!의 값을 출력
+            //Console.Write("n의 값을 입력하세요> ");
+            //if (int.TryParse(Console.ReadLine(), out int n)) {
+            //    long factorial = 1;
 
-
+            //    for (int i = 1; i <= n; i++) {
+            //        factorial *= i;
+            //        Console.Write($"{i}, ");
+            //    }
+            //    Console.WriteLine();
+            //    Console.WriteLine($"{n}! = {factorial}");
+            //} else {
+            //    Console.WriteLine("유효한 숫자를 입력해 주세요.");
+            //}
 
             // 문제 78. 계산기 1에서 두 피연산자에 대한 연산만 다루었다.
             //          이번에는 식을 입력하면 차례대로 계산하여 출력하는 계산기를 만들어보자.
             //          단, 우선순위는 따지지 않고 왼쪽에서 부터 차례대로 계산하고, 모든 계산은 정수형 계산으로 처리한다
+            //int num1;
+            //int num2;
+            //char op;
 
+            //Console.WriteLine("입력하세요.");
+            //string? input1 = Console.ReadLine();
+
+            //// Null 체크 및 int.TryParse로 변환
+            //if (input1 != null && int.TryParse(input1, out num1)) {
+            //    int result = num1;
+
+            //    while (true) {
+            //        string? inputOp = Console.ReadLine();
+            //        if (inputOp != null && inputOp.Length > 0) {
+            //            op = inputOp[0];
+
+            //            if (op == '=') {
+            //                Console.WriteLine(result);
+            //                break;
+            //            }
+
+            //            string? input2 = Console.ReadLine();
+            //            if (input2 != null && int.TryParse(input2, out num2)) {
+            //                if (op == '+') {
+            //                    result += num2;
+            //                } else if (op == '-') {
+            //                    result -= num2;
+            //                } else if (op == '*') {
+            //                    result *= num2;
+            //                } else if (op == '/') {
+            //                    result /= num2;
+            //                }
+            //            } else {
+            //                Console.WriteLine("유효한 숫자를 입력해 주세요.");
+            //            }
+            //        } else {
+            //            Console.WriteLine("유효한 연산자를 입력해 주세요.");
+            //        }
+            //    }
+            //} else {
+            //    Console.WriteLine("유효한 숫자를 입력해 주세요.");
+            //}
 
 
             // 문제 79. 주어지는 문장의 대문자를 소문자로, 소문자를 대문자로 변경하는 프로그램을 작성
+            //Console.WriteLine("입력하세요:");
+            //string? str = Console.ReadLine();
 
+            //for (int i = 0; i < str.Length; i++) {
+            //    char c = str[i];
 
+            //    if (c >= 'a' && c <= 'z') // 영소문자
+            //    {
+            //        Console.Write((char)(c - 32));
+            //    } else if (c >= 'A' && c <= 'Z') // 영대문자
+            //      {
+            //        Console.Write((char)(c + 32));
+            //    } else // 숫자나 특수문자
+            //      {
+            //        Console.Write(c);
+            //    }
+            //}
 
             // 문제 80. 암호문 문제
+            //string password = "qhyhu wuxvw euxwxv";
 
+            //for (int i = 0; i < password.Length; i++) {
+            //    char c = password[i];
 
+            //    if (c >= 'd' && c <= 'z') // 'd'부터 'z'까지는 3칸 앞으로
+            //    {
+            //        Console.Write((char)(c - 3));
+            //    } else if (c >= 'a' && c <= 'c') // 'a', 'b', 'c'는 'x', 'y', 'z'로 변환
+            //      {
+            //        Console.Write((char)(c + 23));
+            //    } else // 공백인 경우
+            //      {
+            //        Console.Write(c);
+            //    }
+            //}
 
             // 문제 81. 5개의 정수들의 최댓값과 최솟값을 구하는 프로그램을 작성
+            //int[] nums = new int[5];
+            //Console.WriteLine("5개의 정수를 입력하세요:");
 
+            //for (int i = 0; i < 5; i++) {
+            //    string? input = Console.ReadLine();  // 입력을 받음
 
+            //    if (input != null && int.TryParse(input, out int number))  // null 체크와 숫자 변환
+            //    {
+            //        nums[i] = number;
+            //    } else {
+            //        Console.WriteLine("유효한 숫자를 입력해 주세요.");
+            //        i--; // 유효하지 않은 입력이 있으면 다시 입력받도록
+            //    }
+            //}
+
+            //// 최대값 찾기
+            //int max = nums[0];
+            //for (int i = 1; i < 5; i++) {
+            //    if (max < nums[i])
+            //        max = nums[i];
+            //}
+
+            //// 최소값 찾기
+            //int min = nums[0];
+            //for (int i = 1; i < 5; i++) {
+            //    if (min > nums[i])
+            //        min = nums[i];
+            //}
+
+            //Console.WriteLine("최대값: " + max);
+            //Console.WriteLine("최소값: " + min);
 
             // 문제 82. 시작단과 마지막 단을 입력하면 그 구간의 구구단을 출력하는 프로그램을 작성
+            //Console.Write("시작할 구구단의 단수를 입력하세요> ");
+            //string? inputStart = Console.ReadLine();
+            //Console.Write("마지막 구구단의 단수를 입력하세요> ");
+            //string? inputLast = Console.ReadLine();
 
-
+            //if (int.TryParse(inputStart, out int start) && int.TryParse(inputLast, out int last)) {
+            //    for (int i = start; i <= last; i++) {
+            //        for (int j = 1; j < 10; j++) {
+            //            Console.WriteLine($"{i} * {j} = {i * j}");
+            //        }
+            //    }
+            //} else {
+            //    Console.WriteLine("유효한 숫자를 입력해 주세요.");
+            //}
 
             // 문제 83. n이 입력되면 다음과 같은 삼각형을 출력, 예) n 이 5 이면
             //          *
@@ -769,8 +1067,19 @@ namespace Examples {
             //          ***
             //          ****
             //          *****
+            //Console.Write("삼각형의 길이를 입력하세요> ");
+            //string? input = Console.ReadLine();
 
-
+            //if (int.TryParse(input, out int size)) {
+            //    for (int i = 1; i <= size; i++) {
+            //        for (int j = 1; j <= i; j++) {
+            //            Console.Write("*");
+            //        }
+            //        Console.WriteLine();
+            //    }
+            //} else {
+            //    Console.WriteLine("유효한 숫자를 입력해 주세요.");
+            //}
 
             // 문제 84. 길이 n이 입력되면 역삼각형을 출력 예) n이 5이면
             //          *****
@@ -778,8 +1087,19 @@ namespace Examples {
             //          ***
             //          **
             //          *
+            //Console.Write("역삼각형의 길이를 입력하세요> ");
+            //string? input = Console.ReadLine();
 
-
+            //if (int.TryParse(input, out int n)) {
+            //    for (int i = 0; i < n; i++) {
+            //        for (int j = 0; j < n - i; j++) {
+            //            Console.Write("*");
+            //        }
+            //        Console.WriteLine();
+            //    }
+            //} else {
+            //    Console.WriteLine("유효한 숫자를 입력해 주세요.");
+            //}
 
             // 문제 85. 길이 n이 입력되면 다음과 같은 역삼각형을 출력한다. 예) n이 5이면
             //          *****
@@ -787,16 +1107,49 @@ namespace Examples {
             //            ***
             //             **
             //              *
+            //Console.WriteLine("n?: ");
+            //string? input = Console.ReadLine();
 
-
+            //if (int.TryParse(input, out int n)) {
+            //    for (int i = 0; i < n; i++) {
+            //        for (int j = 0; j < i; j++) {
+            //            Console.Write(" ");
+            //        }
+            //        for (int k = 0; k < n - i; k++) {
+            //            Console.Write("*");
+            //        }
+            //        Console.WriteLine();
+            //    }
+            //} else {
+            //    Console.WriteLine("유효한 숫자를 입력해 주세요.");
+            //}
 
             // 문제 86. 어떤 수 n을 입력받으면 다음과 같은 삼각형을 출력한다. 여기서 입력되는 n은 반드시 홀수이다.
             //          입력예) 3부터 99 까지의 홀수 중 하나가 입력
             //            *
             //           ***
             //          *****       
+            //Console.Write("3부터 99까지의 홀수 중 하나를 입력하세요: ");
+            //string? input = Console.ReadLine();
 
+            //if (int.TryParse(input, out int n) && n >= 3 && n <= 99 && n % 2 != 0) 
+            //{
+            //    int midIndex = (n / 2) + 1;
 
+            //    for (int i = 1; i <= midIndex; i++) {
+            //        for (int k = i; k < midIndex; k++) {
+            //            Console.Write(" ");
+            //        }
+
+            //        for (int j = 1; j < i * 2; j++) {
+            //            Console.Write("*");
+            //        }
+
+            //        Console.WriteLine();
+            //    }
+            //} else {
+            //    Console.WriteLine("유효한 홀수를 입력해 주세요. (3부터 99까지의 홀수)");
+            //}
 
             // 문제 87. 길이 n이 입력되면 다음과 같은 사각형을 출력한다. 예) n이 5일때
             //          *****
@@ -804,23 +1157,94 @@ namespace Examples {
             //          *   *
             //          *   *
             //          *****
+            //Console.WriteLine("n값:");
+            //string? input = Console.ReadLine();
 
-
+            //if (int.TryParse(input, out int n)) {
+            //    for (int i = 0; i < n; i++) {
+            //        for (int j = 0; j < n; j++) {
+            //            if (i == 0 || i == n - 1) // 첫 줄과 마지막 줄
+            //                Console.Write("*");
+            //            else {
+            //                if (j == 0 || j == n - 1) // 첫 열과 마지막 열
+            //                    Console.Write("*");
+            //                else
+            //                    Console.Write(" ");
+            //            }
+            //        }
+            //        Console.WriteLine();
+            //    }
+            //} else {
+            //    Console.WriteLine("유효한 숫자를 입력해 주세요.");
+            //}
 
             // 문제 88. 동렬이는 수학 문제를 풀다 다음과 같은 수열을 보았다.
             //          Sn = (1) + (1 + 2) + (1 + 2 + 3) + (1 + 2 + 3 + 4) + ...+(1 + ...+ n)Sn
             //          = (1) + (1 + 2) + (1 + 2 + 3) + (1 + 2 + 3 + 4) + ...+(1 + ...+ n)
             //          임의의 정수 n이 주어질 때 이 수열의 합 Sn을 구하는 프로그램을 작성
+            //Console.Write("n값은: ");
+            //string? input = Console.ReadLine();
 
+            //if (int.TryParse(input, out int n)) {
+            //    int sum = 0;
 
+            //    for (int i = 1; i <= n; i++) {
+            //        for (int j = 1; j <= i; j++) {
+            //            sum = sum + j;
+            //        }
+            //    }
+
+            //    Console.WriteLine("수열의 합: " + sum);
+            //} else {
+            //    Console.WriteLine("유효한 숫자를 입력해 주세요.");
+            //}
 
             // 문제 89. 주사위 경우의 수 문제
+            //Console.Write("두 주사위의 합 k를 입력하세요: ");
+            //string? input = Console.ReadLine();
 
+            //if (int.TryParse(input, out int k) && k >= 2 && k <= 12) {
+            //    bool found = false;
 
+            //    for (int i = 1; i <= 6; i++) {
+            //        for (int j = i; j <= 6; j++) // 첫 번째 주사위 값이 더 작거나 같도록 설정
+            //        {
+            //            if (i + j == k) {
+            //                Console.WriteLine(i + " " + j);
+            //                found = true;
+            //            }
+            //        }
+            //    }
+
+            //    if (!found) {
+            //        Console.WriteLine("합이 " + k + "가 되는 경우가 없습니다.");
+            //    }
+            //} else {
+            //    Console.WriteLine("2에서 12 사이의 유효한 값을 입력해 주세요.");
+            //}
 
             // 문제 90. 출석 문제
+            //int[] numbers = new int[10];
 
+            //Console.WriteLine("10번의 출석 번호를 입력하세요 (1~23 사이의 숫자):");
 
+            //for (int i = 0; i < 10; i++) {
+            //    string? input = Console.ReadLine();
+
+            //    if (int.TryParse(input, out int k) && k >= 1 && k <= 23) {
+            //        numbers[i] = k;
+            //    } else {
+            //        Console.WriteLine("유효한 번호를 입력하세요 (1~23 사이의 숫자).");
+            //        i--;
+            //    }
+            //}
+
+            //Console.WriteLine("출석 번호를 거꾸로 출력합니다:");
+
+            //for (int i = 9; i >= 0; i--) 
+            //{
+            //    Console.Write(numbers[i] + " ");
+            //}
 
             // 문제 91. n개의 숫자가 입력되면, n개의 숫자를 왼쪽으로 하나씩 돌려서 출력하시오.
             //          예) 1 2 3 4 5가 입력된 경우,
@@ -829,43 +1253,330 @@ namespace Examples {
             //          3 4 5 1 2
             //          4 5 1 2 3
             //          5 1 2 3 4
+            //Console.WriteLine("n개의 수를 입력하세요:");
+            //string? inputN = Console.ReadLine();
 
+            //if (inputN != null && int.TryParse(inputN, out int n)) {
+            //    int[] nums = new int[1000];
 
+            //    Console.WriteLine($"{n}개의 수를 입력하세요:");
+            //    for (int i = 0; i < n; i++) {
+            //        string? inputNum = Console.ReadLine();
+
+            //        if (inputNum != null && int.TryParse(inputNum, out int number)) {
+            //            nums[i] = number;
+            //        } else {
+            //            Console.WriteLine("유효한 숫자를 입력해 주세요.");
+            //            i--; 
+            //        }
+            //    }
+
+            //    for (int i = 0; i < n; i++) {
+            //        for (int j = i; j < n; j++) {
+            //            Console.Write(nums[j] + " ");
+            //        }
+            //        for (int k = 0; k < i; k++) {
+            //            Console.Write(nums[k] + " ");
+            //        }
+            //        Console.WriteLine();
+            //    }
+            //} else {
+            //    Console.WriteLine("유효한 숫자를 입력해 주세요.");
+            //}
 
             // 문제 92. 기억력 문제 1
+            //int[] motherNum = { 18, 29, 48, 39, 24, 23, 11, 77, 99, 55 };
+            //foreach (int m in motherNum) {
+            //    Console.Write(m + " ");
+            //}
+            //Console.WriteLine();
 
+            //try {
+            //    Thread.Sleep(5000); // 5초 대기
+            //} catch (Exception e) {
+            //    Console.WriteLine(e.Message);
+            //}
 
+            //for (int i = 0; i < 50; i++) {
+            //    Console.WriteLine("...");
+            //}
+
+            //Console.WriteLine("3번째 숫자는?");
+            //string? input = Console.ReadLine();
+            //if (int.TryParse(input, out int num)) {
+            //    bool isExist = false;
+
+            //    if (num == motherNum[2]) // 3번째 숫자는 배열의 인덱스 2
+            //    {
+            //        isExist = true;
+            //    }
+
+            //    if (isExist) {
+            //        Console.WriteLine("정답!");
+            //    } else {
+            //        Console.WriteLine("오답!");
+            //    }
+            //} else {
+            //    Console.WriteLine("유효한 숫자를 입력해 주세요.");
+            //}
 
             // 문제 93. 기억력 문제 2
+            //Console.WriteLine("7개의 단어를 차례대로 입력하세요 (단어를 띄어쓰기로 구분):");
+            //string? input = Console.ReadLine();
 
+            //string[] words = input?.Split(' ') ?? new string[0];
 
+            //if (words.Length != 7) {
+            //    Console.WriteLine("7개의 단어를 입력해야 합니다.");
+            //    return;
+            //}
+
+            //Console.WriteLine("다음 단어들을 기억하세요:");
+            //foreach (string word in words) {
+            //    Console.Write(word + " ");
+            //}
+            //Console.WriteLine();
+
+            //try {
+            //    Thread.Sleep(5000); // 5초 대기
+            //} catch (Exception e) {
+            //    Console.WriteLine(e.Message);
+            //}
+
+            //for (int i = 0; i < 50; i++) {
+            //    Console.WriteLine(".");
+            //}
+
+            //Console.WriteLine("k번째 숫자는 뭘까요?");
+            //string? kInput = Console.ReadLine();
+
+            //if (int.TryParse(kInput, out int k) && k >= 1 && k <= 7) {
+            //    // k번째 단어 출력
+            //    Console.WriteLine($"{k}번째 단어는: {words[k - 1]}");
+            //} else {
+            //    Console.WriteLine("1에서 7 사이의 유효한 숫자를 입력해 주세요.");
+            //}
 
             // 문제 94. 괄호 문제
+            //Console.WriteLine("괄호로 이루어진 문자열을 입력하세요:");
+            //string? input = Console.ReadLine();
 
+            //if (input != null) {
+            //    int openCount = 0;
+            //    int closeCount = 0;
 
+            //    foreach (char c in input) {
+            //        if (c == '(') {
+            //            openCount++;
+            //        } else if (c == ')') {
+            //            closeCount++;
+            //        }
+            //    }
+
+            //    Console.WriteLine($"{openCount} {closeCount}");
+            //} else {
+            //    Console.WriteLine("유효한 문자열을 입력해 주세요.");
+            //}
 
             // 문제 95. 어떤 영어 문장이 주어지면 각 알파벳이 몇 번 나왔는지 출력
+            //int[] counts = new int[26];
 
+            //Console.WriteLine("영어 문장을 입력하세요:");
+            //string? str = Console.ReadLine();
 
+            //if (str != null) {
+            //    foreach (char c in str) {
+            //        if (c >= 'a' && c <= 'z') {
+            //            int index = c - 'a';
+            //            counts[index]++;
+            //        }
+            //    }
+
+            //    for (int i = 0; i < counts.Length; i++) {
+            //        if (counts[i] > 0) {
+            //            Console.WriteLine((char)('a' + i) + ":" + counts[i]);
+            //        }
+            //    }
+            //} else {
+            //    Console.WriteLine("유효한 입력이 아닙니다.");
+            //}
 
             // 문제 96. 친구 성적 문제
+            //Console.WriteLine("학생 수를 입력하세요 (3 <= n <= 50):");
+            //string? input = Console.ReadLine();
 
+            //if (input != null && int.TryParse(input, out int n) && n >= 3 && n <= 50) {
+            //    string[,] students = new string[n, 2];
 
+            //    for (int i = 0; i < n; i++) {
+            //        Console.WriteLine("학생 이름을 입력하세요:");
+            //        string? nameInput = Console.ReadLine();
+
+            //        if (string.IsNullOrEmpty(nameInput)) {
+            //            Console.WriteLine("유효한 이름을 입력해 주세요.");
+            //            i--;
+            //            continue;
+            //        }
+            //        students[i, 0] = nameInput;
+
+            //        Console.WriteLine("학생 성적을 입력하세요:");
+            //        string? scoreInput = Console.ReadLine();
+
+            //        if (string.IsNullOrEmpty(scoreInput) || !int.TryParse(scoreInput, out int score)) {
+            //            Console.WriteLine("유효한 성적을 입력해 주세요.");
+            //            i--;
+            //            continue;
+            //        }
+            //        students[i, 1] = score.ToString();
+            //    }
+
+            //    for (int i = 0; i < n; i++) {
+            //        for (int j = i + 1; j < n; j++) {
+            //            int score1 = int.Parse(students[i, 1]);
+            //            int score2 = int.Parse(students[j, 1]);
+
+            //            if (score2 > score1) {
+            //                string tempName = students[i, 0];
+            //                string tempScore = students[i, 1];
+            //                students[i, 0] = students[j, 0];
+            //                students[i, 1] = students[j, 1];
+            //                students[j, 0] = tempName;
+            //                students[j, 1] = tempScore;
+            //            }
+            //        }
+            //    }
+
+            //    Console.WriteLine("성적이 세 번째로 높은 학생:");
+            //    Console.WriteLine(students[2, 0]);
+            //} else {
+            //    Console.WriteLine("유효한 학생 수를 입력해 주세요 (3 이상 50 이하).");
+            //}
 
             // 문제 97. 담임 자리배치 문제
+            //Console.WriteLine("학생 수와 한 줄에 앉을 자리 수를 입력하세요:");
+            //string? input = Console.ReadLine();
 
+            //if (input != null && input.Split().Length == 2) {
+            //    string[] inputs = input.Split();
 
+            //    if (int.TryParse(inputs[0], out int studentCount) && int.TryParse(inputs[1], out int placeCount)) {
+            //        if (studentCount < 1 || studentCount > 99 || placeCount < 1 || placeCount > 10) {
+            //            Console.WriteLine("학생 수는 1~99명, 자리 수는 1~10명 사이여야 합니다.");
+            //            return;
+            //        }
+
+            //        int[] heights = new int[studentCount];
+            //        Console.WriteLine("학생들의 키를 입력하세요:");
+            //        for (int i = 0; i < studentCount; i++) {
+            //            string? heightInput = Console.ReadLine();
+
+            //            if (heightInput == null || !int.TryParse(heightInput, out heights[i])) {
+            //                Console.WriteLine("유효한 숫자를 입력해 주세요.");
+            //                i--;
+            //            }
+            //        }
+
+            //        Array.Sort(heights);
+
+            //        for (int i = 0; i < studentCount; i++) {
+            //            Console.Write(heights[i] + " ");
+
+            //            if ((i + 1) % placeCount == 0) {
+            //                Console.WriteLine();
+            //            }
+            //        }
+            //    } else {
+            //        Console.WriteLine("유효한 학생 수와 자리 수를 입력해 주세요.");
+            //    }
+            //} else {
+            //    Console.WriteLine("입력 형식이 잘못되었습니다.");
+            //}
 
             // 문제 98. 오목문제
+            //int[,] board = new int[10, 10];
+            //for (int i = 0; i < 10; i++) {
+            //    for (int j = 0; j < 10; j++) {
+            //        board[i, j] = 0;
+            //    }
+            //}
 
+            //Console.Write("흰돌의 개수를 입력하세요 (1~10): ");
+            //string? inputN = Console.ReadLine();
 
+            //if (inputN != null && int.TryParse(inputN, out int n) && n >= 1 && n <= 10) {
+            //    for (int i = 0; i < n; i++) {
+            //        Console.Write("X: ");
+            //        string? inputX = Console.ReadLine();
+            //        Console.Write("Y: ");
+            //        string? inputY = Console.ReadLine();
+
+            //        if (inputX != null && int.TryParse(inputX, out int x) &&
+            //            inputY != null && int.TryParse(inputY, out int y) &&
+            //            x >= 1 && x <= 10 && y >= 1 && y <= 10) {
+            //            board[x - 1, y - 1] = 1;
+            //        } else {
+            //            Console.WriteLine("유효한 좌표를 입력해 주세요.");
+            //            i--;
+            //        }
+            //    }
+
+            //    for (int i = 0; i < 10; i++) {
+            //        for (int j = 0; j < 10; j++) {
+            //            Console.Write(board[i, j] + " ");
+            //        }
+            //        Console.WriteLine();
+            //    }
+            //} else {
+            //    Console.WriteLine("유효한 흰돌의 개수를 입력해 주세요 (1~10).");
+            //}
 
             // 문제 99. 학점 문제
+            //Console.WriteLine("점수를 입력하세요:");
+            //string? input = Console.ReadLine();
 
-
+            //if (input != null && int.TryParse(input, out int score)) {
+            //    CalculateGrade(score);
+            //} else {
+            //    Console.WriteLine("유효한 정수를 입력해 주세요.");
+            //}
 
             // 문제 100. 컴퓨터 랜덤숫자 문제
+            //Random rand = new Random();
+            //int answer = rand.Next(1, 101);
+            //bool isCorrect = false;
 
+            //Console.WriteLine("숫자 맞추기 게임을 시작합니다!");
+
+            //while (!isCorrect) {
+            //    Console.WriteLine("1에서 100 사이의 숫자를 입력하세요.");
+            //    string? input = Console.ReadLine();
+
+            //    if (input != null && int.TryParse(input, out int userAnswer)) {
+            //        if (userAnswer < answer) {
+            //            Console.WriteLine("입력한 숫자가 정답보다 작습니다.");
+            //        } else if (userAnswer > answer) {
+            //            Console.WriteLine("입력한 숫자가 정답보다 큽니다.");
+            //        } else {
+            //            Console.WriteLine("정답입니다!");
+            //            isCorrect = true;
+            //        }
+            //    } else {
+            //        Console.WriteLine("유효한 숫자를 입력해 주세요.");
+            //    }
+            //}
+
+            //static void CalculateGrade(int score) {
+            //    if (score >= 90) {
+            //        Console.WriteLine("A학점");
+            //    } else if (score >= 80) {
+            //        Console.WriteLine("B학점");
+            //    } else if (score >= 70) {
+            //        Console.WriteLine("C학점");
+            //    } else if (score >= 60) {
+            //        Console.WriteLine("D학점");
+            //    } else {
+            //        Console.WriteLine("E학점");
+            //    }
         }
     }
 }
